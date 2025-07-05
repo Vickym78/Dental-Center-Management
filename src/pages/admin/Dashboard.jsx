@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AdminLayout from '../../components/AdminLayout';
-import { FaUserInjured, FaCalendarAlt, FaCheckCircle, FaClock, FaRupeeSign, FaStar } from 'react-icons/fa';
+import { FaUserInjured, FaCheckCircle, FaClock, FaRupeeSign, FaStar } from 'react-icons/fa';
 
 const AdminDashboard = () => {
   const [patients, setPatients] = useState([]);
